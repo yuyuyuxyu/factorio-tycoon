@@ -77,4 +77,16 @@ data:extend{
         result = "utility-science-pack",
         result_count = 1,
     },
+    {
+        type = "recipe",
+        name = "tycoon-higher-education",
+        category = "tycoon-university-science",
+        energy_required = 120,
+        enabled = true,
+        ingredients = {
+            { type = "item", name = "tycoon-currency", amount = 100 },
+        },
+        result = "tycoon-research-fellow",
+        result_count = 1,
+    },
 }

@@ -13,6 +13,18 @@ data:extend{
     },
     {
         type = "recipe",
+        name = "tycoon-building-recipe-research-institution",
+        category = "crafting",
+        enabled = true,
+        ingredients = {
+            { type = "item", name = "stone", amount = 100 },
+            { type = "item", name = "iron-plate", amount = 50 },
+        },
+        result = "tycoon-research-institution",
+        result_count = 1,
+    },
+    {
+        type = "recipe",
         name = "tycoon-building-recipe-water-tower",
         category = "crafting",
         enabled = true,

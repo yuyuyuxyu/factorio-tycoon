@@ -39,6 +39,18 @@ data:extend({
     },
     {
         type = "item-subgroup",
+        name = "tycoon-workers",
+        group = "tycoon",
+        order = "f"
+    },
+    {
+        type = "module-category",
+        name = "tycoon-workers",
+        group = "tycoon",
+        order = "g"
+    },
+    {
+        type = "item-subgroup",
         name = "tycoon-hidden",
         group = "tycoon",
         order = "z"

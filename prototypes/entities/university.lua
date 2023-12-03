@@ -25,6 +25,8 @@ data:extend{
         crafting_categories = { "tycoon-university-science" },
         crafting_speed = 1,
         return_ingredients_on_change = false,
+        allowed_effects = {"consumption", "speed", "pollution", "productivity"},
+        --The university itself does not have a module slot, but allows research institutions to affect the university.
         energy_usage = "500KW",
         energy_source = {
             type = "electric",

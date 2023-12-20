@@ -64,3 +64,7 @@ require("prototypes.hotkeys")
 require("prototypes.shortcuts")
 require("prototypes.gui.sprites")
 require("prototypes.gui.tips-and-tricks")
+
+
+require("prototypes.entities.experiment")
+require("prototypes.items.experiment")
